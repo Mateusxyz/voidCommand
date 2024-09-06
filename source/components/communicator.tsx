@@ -7,7 +7,7 @@ export const RadioCommunicator = () => {
 				<Box flexDirection="column">
 					<Text color="yellow">[Rádio Comunicador]</Text>
 					<Text color="white">Mensagem recebida: "Alfa, Bravo, Charlie..."</Text>
-					<Text color="white">Status: Conectado</Text>
+					<Text color="red">Status: Desconectado</Text>
 				</Box>
 		</Box>
 	);
