@@ -8,7 +8,7 @@
 		"node": ">=16"
 	},
 	"scripts": {
-		"start":"npx ts-node --esm source/cli.tsx",
+		"start": "npx tsx source/cli.tsx",
 		"build": "tsc",
 		"dev": "tsc --watch",
 		"test": "prettier --check . && xo && ava"
@@ -22,7 +22,8 @@
 		"ink-box": "^2.0.0",
 		"ink-text-input": "^6.0.0",
 		"meow": "^13.2.0",
-		"react": "^18.2.0"
+		"react": "^18.2.0",
+		"tsx": "^4.19.0"
 	},
 	"devDependencies": {
 		"@sindresorhus/tsconfig": "^6.0.0",
